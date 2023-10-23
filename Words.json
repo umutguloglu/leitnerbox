@@ -1,78 +1,43 @@
 {
     "Groups": [
         {
-            "Number of Words": 3,
+            "Number of Words": 6,
             "Words": [
                 {
-                    "Name": "Subscribe",
-                    "Pos": "Verb (v)",
-                    "Definition": "A",
-                    "Example": ""
+                    "Name": "Attic",
+                    "Pos": "Noun (n)",
+                    "Definition": "A space or room just below the roof of a building",
+                    "Example": "There are five attic bedrooms."
                 },
                 {
-                    "Name": "Ali",
-                    "Pos": "Verb (v)",
-                    "Definition": "Def1",
-                    "Example": ""
+                    "Name": "Versatile",
+                    "Pos": "Noun (n)",
+                    "Definition": "Able to adapt or be adapted to many different functions or activities",
+                    "Example": "He was versatile enough to play either position."
                 },
                 {
-                    "Name": "Aaaaaa",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "S",
-                    "Example": ""
-                }
-            ]
-        },
-        {
-            "Number of Words": 8,
-            "Words": [
-                {
-                    "Name": "Kmk",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "Dsad",
-                    "Example": ""
+                    "Name": "Excerpt",
+                    "Pos": "Noun (n)",
+                    "Definition": "A short extract from a film, broadcast, or piece of music or writing",
+                    "Example": "Number the main ideas in the order they are developed in the excerpt given."
                 },
                 {
-                    "Name": "Sda s",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "Xczxc",
-                    "Example": ""
+                    "Name": "To aspires to",
+                    "Pos": "Verb (V)",
+                    "Definition": "To have a strong desire to do or become something",
+                    "Example": "The actor has not been in a movie for then years, but he still aspires to stardom."
                 },
                 {
-                    "Name": "Asasasa",
-                    "Pos": "Preposition (prep)",
-                    "Definition": "Ss",
-                    "Example": ""
+                    "Name": "To keep",
+                    "Pos": "Noun (n)",
+                    "Definition": "To have or retain possession of",
+                    "Example": "My father would keep the best for himself."
                 },
                 {
-                    "Name": "Asdaaaaa",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "Sda",
-                    "Example": ""
-                },
-                {
-                    "Name": "55",
-                    "Pos": "Verb (v)",
-                    "Definition": "Ljmlj",
-                    "Example": ""
-                },
-                {
-                    "Name": "Alib",
-                    "Pos": "Verb (v)",
-                    "Definition": "Poln",
-                    "Example": ""
-                },
-                {
-                    "Name": "Deneme2",
-                    "Pos": "Noun2",
-                    "Example": "Bu bir deneme2",
-                    "Definition": "Try2"
-                },
-                {
-                    "Name": "Asd0",
-                    "Pos": "Preposition (prep)",
-                    "Definition": "Sadas",
-                    "Example": ""
+                    "Name": "Resolve",
+                    "Pos": "Noun (n)",
+                    "Definition": "A strong determination to do something",
+                    "Example": "Superheroes succeed because they have the resolve to keep fighting even when a situation seems hopeless."
                 }
             ]
         },
@@ -81,60 +46,28 @@
             "Words": []
         },
         {
-            "Number of Words": 2,
-            "Words": [
-                {
-                    "Name": "Asdsa",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "P",
-                    "Example": ""
-                },
-                {
-                    "Name": "Aliss",
-                    "Pos": "Adjective (adj)",
-                    "Definition": "Def",
-                    "Example": "Saddsa"
-                }
-            ]
+            "Number of Words": 0,
+            "Words": []
         },
         {
-            "Number of Words": 1,
-            "Words": [
-                {
-                    "Name": "A",
-                    "Pos": "Verb (v)",
-                    "Definition": "Sss",
-                    "Example": ""
-                }
-            ]
+            "Number of Words": 0,
+            "Words": []
         },
         {
-            "Number of Words": 1,
-            "Words": [
-                {
-                    "Name": "Alis",
-                    "Pos": "Adjective (adj)",
-                    "Definition": "Def",
-                    "Example": ""
-                }
-            ]
+            "Number of Words": 0,
+            "Words": []
         },
         {
-            "Number of Words": 2,
-            "Words": [
-                {
-                    "Name": "Deneme",
-                    "Pos": "Noun",
-                    "Example": "Bu bir deneme",
-                    "Definition": "Try"
-                },
-                {
-                    "Name": "Asd",
-                    "Pos": "Adverb (adv)",
-                    "Definition": "Bala",
-                    "Example": ""
-                }
-            ]
+            "Number of Words": 0,
+            "Words": []
+        },
+        {
+            "Number of Words": 0,
+            "Words": []
+        },
+        {
+            "Number of Words": 0,
+            "Words": []
         }
     ],
     "Dates": [
