@@ -1,6 +1,7 @@
 import tkinter as tk
-from tkinter import ttk
+#from tkinter import ttk
 from tkinter import messagebox
+import ttkbootstrap as ttk
 import json 
 
 import array as arr
@@ -128,7 +129,7 @@ class add_edit_window(tk.Toplevel):
 
         # Search Button Part
         self.edit_name_button = ttk.Button(self, text='Search this name' , command=self.searchWord)
-        self.edit_name_button.grid(row=2,column=0,columnspan=2)
+        self.edit_name_button.grid(row=2,column=0,columnspan=2,pady=6)
 
         # Group Part
         ttk.Label(self , text='Current Group:').grid( row=3, column=0)
@@ -161,11 +162,11 @@ class add_edit_window(tk.Toplevel):
 
         # Delete button
         self.delete_button = ttk.Button(self, text='Delete' , command=self.deleteWord)
-        self.delete_button.grid(row=7,column=0)
+        self.delete_button.grid(row=7,column=0,pady=6,padx=4)
 
         # OK Button
         self.edit_ok_button = ttk.Button(self, text='Complete Editing' , command=self.editWord)
-        self.edit_ok_button.grid(row=7,column=1)
+        self.edit_ok_button.grid(row=7,column=1,pady=6,padx=4)
 
         edw_name.set("")
         edw_group.set("1")
@@ -465,13 +466,13 @@ def decrease_day():
 # ------------------------------------------------ END ----------------------------------------------------------
 
 # Initial Geometry Arrangements
-window = tk.Tk()
+window = ttk.Window(themename="journal")
 my_width = window.winfo_screenwidth()
 my_height= window.winfo_screenheight()
-window_width = 1200
-window_height= 600
-add_word_width = 500
-add_word_height = 300
+window_width = 1440
+window_height= 720
+add_word_width = 720
+add_word_height = 480
 left_sp = int((my_width - window_width)/2)
 top_sp=int((my_height-window_height)/2)
 add_word_left_sp = int((my_width - add_word_width)/2)
@@ -531,12 +532,12 @@ now_7 = tk.StringVar(master = no_words_number_frame, value=general_dict['Groups'
 now_8 = tk.StringVar(master = no_words_number_frame, value=general_dict['Groups'][7]['Number of Words'])
  
 # Top Frame
-ttk.Label(top_frame, text = 'Online Leitner Box', font= 'Calibri 24 bold', background='orange').pack(side= 'top')
-top_frame.pack()
+ttk.Label(top_frame, text = 'Online Leitner Box', font= 'Calibri 25 bold').pack(side= 'top')
+top_frame.pack(fill='x')
 
 # Left Frame
 #label2 = ttk.Label(left_frame, text = 'General Info', font= 'Calibri 24 bold' , background= 'red')
-no_words_headline = ttk.Label(no_words_frame, text = '----------Number of Words In Each Group----------', font= 'Calibri 12 italic' , background= 'orange')
+no_words_headline = ttk.Label(no_words_frame, text = '------Number of Words In Each Group------', font= 'Calibri 12 italic' , background= 'orange')
 
 #label2.pack(side='top',fill = 'both')
 no_words_headline.pack()
@@ -566,8 +567,9 @@ day_label = ttk.Label(left_frame, text = f'Currently, you are in Day: {current_d
 day_label.pack()
 group_label = ttk.Label(left_frame, text = f'Today\'s repeat group: {current_group}')
 group_label.pack()
-ttk.Button(left_frame,text='I have done today\'s work. Increase the day.', command=increase_day).pack()
-ttk.Button(left_frame,text='I mistakenly increased the day. Decrease the day.', command=decrease_day).pack()
+ttk.Button(left_frame,text='I have done today\'s work. Increase the day.', command=increase_day).pack(pady=5)
+ttk.Button(left_frame,text='I mistakenly increased the day. Decrease the day.', command=decrease_day).pack(pady=5)
+
 left_frame.pack(side='left',expand=True, fill='both')
 
 
@@ -579,24 +581,24 @@ check_frame = tk.Frame(start_show_frame)
 show_frame = tk.Frame(main_frame)
 
 ttk.Button(button_frame, text='Add a new word', command=addWordWindow).pack(side='left')
-ttk.Button(button_frame, text='Edit/Delete a word', command=editWordWindow).pack(side='left')
-button_frame.pack()
+ttk.Button(button_frame, text='Edit/Delete a word', command=editWordWindow).pack(side='left',padx=10)
+button_frame.pack(pady=10)
 
 radio_group = tk.IntVar(value=1)
 radio_1 = ttk.Radiobutton(check_frame, text='1', variable=radio_group, value=1)
-radio_1.pack(side='left')
+radio_1.pack(side='left',padx=3)
 radio_2 = ttk.Radiobutton(check_frame, text='2', variable=radio_group, value=2)
-radio_2.pack(side='left')
+radio_2.pack(side='left',padx=3)
 radio_3 = ttk.Radiobutton(check_frame, text='3', variable=radio_group, value=3)
-radio_3.pack(side='left')
+radio_3.pack(side='left',padx=3)
 radio_4 = ttk.Radiobutton(check_frame, text='4', variable=radio_group, value=4)
-radio_4.pack(side='left')
+radio_4.pack(side='left',padx=3)
 radio_5 = ttk.Radiobutton(check_frame, text='5', variable=radio_group, value=5)
-radio_5.pack(side='left')
+radio_5.pack(side='left',padx=3)
 radio_6 = ttk.Radiobutton(check_frame, text='6', variable=radio_group, value=6)
-radio_6.pack(side='left')
+radio_6.pack(side='left',padx=3)
 radio_7 = ttk.Radiobutton(check_frame, text='7', variable=radio_group, value=7)
-radio_7.pack(side='left')
+radio_7.pack(side='left',padx=3)
 
 
 '''
@@ -624,8 +626,8 @@ check_7 = ttk.Checkbutton(check_frame, text = '7', variable=show_7 )
 check_7.pack(side='left')
 '''
 start_show_button = ttk.Button(start_show_frame, text='Start Showing the Words', command=startShowWindow)
-start_show_button.pack()
-check_frame.pack()
+start_show_button.pack(pady=5)
+check_frame.pack(pady=5)
 
 start_show_frame.pack()
 
@@ -644,9 +646,9 @@ show_def_button = ttk.Button(show_frame, text='Show The Answer' , command=screen
 show_def_button.pack(pady=5)
 correct_false_frame = tk.Frame(show_frame)
 correct_def_button = ttk.Button(correct_false_frame, text='Correct Answer' , command=correct_answer)
-correct_def_button.pack(side='left')
+correct_def_button.pack(side='left',padx=5)
 false_def_button = ttk.Button(correct_false_frame, text='False Answer' , command=false_answer)
-false_def_button.pack(side='left')
+false_def_button.pack(side='left',padx=5)
 correct_false_frame.pack()
 show_frame.pack(expand=True, fill = 'both', pady=30)
 main_frame.pack(side='left',expand=True,fill='both')
@@ -673,7 +675,7 @@ You can then indicate whether you guessed correctly or not, and the next word wi
 
 
 label4 = ttk.Label(right_frame, text = '----------General Information----------', font= 'Calibri 12 italic' , background= 'orange')
-info_text = ttk.Label(right_frame, text = my_text, wraplength=300, justify='center')
+info_text = ttk.Label(right_frame, text = my_text, wraplength=300, justify='center', font="Calibri 8")
 label4.pack(pady=5)
 info_text.pack()
 right_frame.pack(side='left',expand=True, fill='both')
