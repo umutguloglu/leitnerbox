@@ -184,6 +184,7 @@ class add_edit_window(tk.Toplevel):
         for x in range(8):
             for eachword in general_dict['Groups'][x]["Words"]: #Controls whether the same word exists.
                     if eachword['Name']==name:
+                        self.enable_edit_positions()
                         self.hidden_word = eachword
                         edw_pos.set(eachword['Pos'])
                         edw_def.set(eachword['Definition'])
@@ -191,7 +192,7 @@ class add_edit_window(tk.Toplevel):
                         self.hidden_del_group = x
                         edw_ex.delete('1.0', tk.END)
                         edw_ex.insert("1.0",eachword['Example'])
-                        self.enable_edit_positions()
+
                         return 
         self.disable_edit_positions()      
         messagebox.showerror('Error!','That Word is not found',parent=self)
