@@ -1,7 +1,89 @@
 {
     "Groups": [
         {
-            "Number of Words": 6,
+            "Number of Words": 3,
+            "Words": [
+                {
+                    "Name": "Wicked",
+                    "Pos": "Adjective (adj)",
+                    "Definition": "Having committed unrighteous acts (kotu, kotuluk/ahlahsizlik pesinde olan)",
+                    "Example": "Now here she was forced to make her living among all the black scum of this wicked city."
+                },
+                {
+                    "Name": "Nefarious",
+                    "Pos": "Adjective (adj)",
+                    "Definition": "Extremely wicked (cok kotu, alcakca)",
+                    "Example": ""
+                },
+                {
+                    "Name": "Contingency",
+                    "Pos": "Noun (n)",
+                    "Definition": "A possible event or occurrence or result",
+                    "Example": "When you insure anything, you are contracting to receive some specified payoff in the event of a clearly defined contingency."
+                }
+            ]
+        },
+        {
+            "Number of Words": 9,
+            "Words": [
+                {
+                    "Name": "Excerpt",
+                    "Pos": "Noun (n)",
+                    "Definition": "A short extract from a film, broadcast, or piece of music or writing",
+                    "Example": "Number the main ideas in the order they are developed in the excerpt given."
+                },
+                {
+                    "Name": "Trait",
+                    "Pos": "Noun (n)",
+                    "Definition": "A distinguishing feature of the objects personal nature",
+                    "Example": "In the past, rubies were associated with many positive traits."
+                },
+                {
+                    "Name": "Legitimacy",
+                    "Pos": "Noun (n)",
+                    "Definition": "The state or quality of being legitimate or in comformity with law (mesruluk) ",
+                    "Example": "A year after his father died, kim jong eun solidified his legitimacy and his hold on power with the successful launch of a three-stage rocket that put a satellite into orbit."
+                },
+                {
+                    "Name": "Portrayal",
+                    "Pos": "Noun (n)",
+                    "Definition": "The act of process of portraying using words, acting or painting; description (betimleme, tasvir; tanimlama)",
+                    "Example": "Perhaps best remembered was his surprise portrayal of betsy ross."
+                },
+                {
+                    "Name": "To reconcile",
+                    "Pos": "Verb (v)",
+                    "Definition": "To make different things come together or resolve a matter (uzlastirmak)",
+                    "Example": "See if you can reconcile the following hypothetical statements, both of which could be true."
+                },
+                {
+                    "Name": "Intermediary",
+                    "Pos": "Noun (n)",
+                    "Definition": "A negotiator who acts as a link between parties",
+                    "Example": "His central role as priest\u2014intermediary between congregation and god\u2014is diminished."
+                },
+                {
+                    "Name": "Perjury",
+                    "Pos": "Noun (n)",
+                    "Definition": "Act of deliberately lying under oath (yalanci sahitlik)",
+                    "Example": "I would not get you convicted of perjury."
+                },
+                {
+                    "Name": "Freight",
+                    "Pos": "Noun (n)",
+                    "Definition": "Sending of goods or the goods themselves (nakliye veya nakliyede tasinan mallar)",
+                    "Example": "They were going to jump on the night freight train and ride out of town."
+                },
+                {
+                    "Name": "To incur",
+                    "Pos": "Verb (v)",
+                    "Definition": "To encounter something inconvenient or harmful, to become liable or subject to (kotu bir seye maruz kalmak, cekmek zorunda kalmak)",
+                    "Example": "It appeared that he had only stung the leg, not incurred a deeper injury."
+                }
+            ]
+        },
+        {
+            "Number of Words": 11,
             "Words": [
                 {
                     "Name": "Attic",
@@ -10,16 +92,34 @@
                     "Example": "There are five attic bedrooms."
                 },
                 {
-                    "Name": "Versatile",
+                    "Name": "Upheaval",
                     "Pos": "Noun (n)",
-                    "Definition": "Able to adapt or be adapted to many different functions or activities",
-                    "Example": "He was versatile enough to play either position."
+                    "Definition": "A great change, causing or involving difficulty or trouble (ani ve b\u00fcy\u00fck degisiklik)",
+                    "Example": "The long garbage strike in 1970 caused much political upheaval."
                 },
                 {
-                    "Name": "Excerpt",
+                    "Name": "To pertain to ",
+                    "Pos": "Verb (v)",
+                    "Definition": "Be related to (bir seyle ilgili/alakali/baglantili olmak)",
+                    "Example": "We are only interested in the parts of the proposals that pertain to local issues."
+                },
+                {
+                    "Name": "To strike a balance",
+                    "Pos": "Verb (v)",
+                    "Definition": "Accept parts of both things in order to satisfy some of the demands of both sides in an argument, rather than all the demands of just one side (ortada bulusmak)",
+                    "Example": "We need to strike a balance between accuracy and practicality."
+                },
+                {
+                    "Name": "To keep",
+                    "Pos": "Verb (v)",
+                    "Definition": "To have or retain possession of",
+                    "Example": "My father would keep the best for himself."
+                },
+                {
+                    "Name": "Inference",
                     "Pos": "Noun (n)",
-                    "Definition": "A short extract from a film, broadcast, or piece of music or writing",
-                    "Example": "Number the main ideas in the order they are developed in the excerpt given."
+                    "Definition": "A guess that you make or an opinion that you form based on the information that you have (cikarim)",
+                    "Example": "We contextualize, filter, draw conclusions, and make inferences, in part, based on someone\u2019s physical attributes."
                 },
                 {
                     "Name": "To aspires to",
@@ -28,10 +128,22 @@
                     "Example": "The actor has not been in a movie for then years, but he still aspires to stardom."
                 },
                 {
-                    "Name": "To keep",
+                    "Name": "Firmly",
+                    "Pos": "Adverb (adv)",
+                    "Definition": "Strongly, forcefully, certainly",
+                    "Example": "We are firmly committed to reducing unemployment.\n\nhe shook my hand firmly and climbed into the taxi.\n\n"
+                },
+                {
+                    "Name": "Versatile",
                     "Pos": "Noun (n)",
-                    "Definition": "To have or retain possession of",
-                    "Example": "My father would keep the best for himself."
+                    "Definition": "Able to adapt or be adapted to many different functions or activities",
+                    "Example": "He was versatile enough to play either position."
+                },
+                {
+                    "Name": "To procure",
+                    "Pos": "Verb (v)",
+                    "Definition": "Get by special effort (temin etmek)",
+                    "Example": "This very morning, she announces, she has managed to procure what might be the last two crates of peaches in france."
                 },
                 {
                     "Name": "Resolve",
@@ -40,14 +152,6 @@
                     "Example": "Superheroes succeed because they have the resolve to keep fighting even when a situation seems hopeless."
                 }
             ]
-        },
-        {
-            "Number of Words": 0,
-            "Words": []
-        },
-        {
-            "Number of Words": 0,
-            "Words": []
         },
         {
             "Number of Words": 0,
@@ -328,6 +432,6 @@
         ]
     ],
     "Track": {
-        "Day": 1
+        "Day": 5
     }
 }
