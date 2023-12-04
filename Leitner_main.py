@@ -1,7 +1,7 @@
 import tkinter as tk
-#from tkinter import ttk
+from tkinter import ttk
 from tkinter import messagebox
-import ttkbootstrap as ttk
+#import ttkbootstrap as ttk
 import json 
 
 import array as arr
@@ -466,7 +466,13 @@ def decrease_day():
 # ------------------------------------------------ END ----------------------------------------------------------
 
 # Initial Geometry Arrangements
-window = ttk.Window(themename="journal")
+try:
+    window = ttk.Window(themename="journal")
+except:
+    window = tk.Tk()
+# While creating exe, comment top part and decomment beloww
+#window = ttk.Window(themename="journal")
+
 my_width = window.winfo_screenwidth()
 my_height= window.winfo_screenheight()
 window_width = 1440
